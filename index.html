@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link rel="icon" href="https://i.postimg.cc/gkN6kdxS/1.jpg" type="image/jpeg" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>1foedits | Instagram Edits</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #0e0e0e;
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem;
+    }
+    header {
+      text-align: center;
+      background: #1f1f1f;
+      padding: 2rem 2rem 3rem;
+      border-radius: 12px;
+      border: 1px solid #00f0ff;
+      box-shadow: 0 0 20px rgba(0, 240, 255, 0.5);
+      max-width: 400px;
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+    .profile-img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #00f0ff;
+      transition: transform 0.3s ease;
+      display: block;
+      margin: 0 auto 1.2rem;
+    }
+    .profile-img:hover {
+      transform: scale(1.1);
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.4rem;
+    }
+    p.bio {
+      color: #aaa;
+      font-size: 1.1rem;
+      margin-bottom: 1.2rem;
+      line-height: 1.4;
+    }
+    .follow-btn {
+      display: inline-block;
+      padding: 0.7rem 1.5rem;
+      background: #00f0ff;
+      color: #000;
+      font-weight: 700;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+      font-size: 1.1rem;
+      box-shadow: 0 0 10px #00f0ff;
+    }
+    .follow-btn:hover {
+      background: #00d4e3;
+    }
+    section {
+      max-width: 700px;
+      width: 100%;
+      background: #1f1f1f;
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 0 15px rgba(0, 240, 255, 0.3);
+    }
+    section h2 {
+      color: #00f0ff;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .edits-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .edit-item {
+      background: #222;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 8px rgba(0, 240, 255, 0.4);
+      cursor: pointer;
+      transition: transform 0.3s ease;
+      display: flex;
+      flex-direction: column;
+    }
+    .edit-item:hover {
+      transform: scale(1.05);
+    }
+    .edit-item img,
+    .edit-item iframe {
+      width: 100%;
+      border-bottom: 2px solid #00f0ff;
+      flex-shrink: 0;
+      aspect-ratio: 16 / 9;
+      display: block;
+    }
+    .edit-title {
+      padding: 0.8rem 1rem;
+      color: #ddd;
+      font-weight: 600;
+      font-size: 1rem;
+      text-align: center;
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #555;
+      text-align: center;
+      user-select: none;
+    }
+    @media (max-width: 600px) {
+      header, section {
+        padding: 1.5rem 1rem 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img
+      src="https://i.postimg.cc/gkN6kdxS/1.jpg"
+      alt="1foedits Profile"
+      class="profile-img"
+      loading="lazy"
+    />
+    <h1>@1foedits</h1>
+    <p class="bio">🔥 Sharing the cleanest edits & reels | 🎧 Vibes in every frame</p>
+    <a
+      class="follow-btn"
+      href="https://www.instagram.com/1foedits"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Follow on Instagram</a
+    >
+  </header>
+
+  <section>
+    <h2>Top Edits</h2>
+    <div class="edits-grid">
+
+      <div class="edit-item">
+        <div style="position:relative; width:100%; height:0; padding-bottom:56.25%;">
+          <iframe allow="fullscreen" allowfullscreen 
+            src="https://streamable.com/e/j2o0jc?" 
+            style="border:none; width:100%; height:100%; position:absolute; left:0; top:0; overflow:hidden;" 
+            frameborder="0" 
+            scrolling="no"></iframe>
+        </div>
+        <div class="edit-title">1</div>
+      </div>
+
+      <div class="edit-item">
+        <div style="position:relative; width:100%; height:0; padding-bottom:177.778%;">
+          <iframe allow="fullscreen" allowfullscreen height="100%"
+            src="https://streamable.com/e/mr5pe6?" width="100%"
+            style="border:none; width:100%; height:100%; position:absolute; left:0; top:0; overflow:hidden;">
+          </iframe>
+        </div>
+        <div class="edit-title">2</div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>© 2025 1foedits. All rights reserved.</footer>
+
+</body>
+</html>
